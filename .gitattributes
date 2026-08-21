@@ -1,0 +1,3 @@
+# Linux distro: keep LF line endings everywhere so shell scripts,
+# APKBUILDs and configs are never corrupted by Windows CRLF conversion.
+* text=auto eol=lf
