@@ -1,0 +1,33 @@
+#!/bin/sh
+# gadunix-help — print distro-specific documentation
+
+cat << 'EOF'
+
+  Gadunix quick reference
+  =======================
+
+  Package management (apk):
+    apk update           refresh the package index
+    apk add <pkg>        install a package
+    apk del <pkg>        remove a package
+    apk upgrade          upgrade all packages
+    apk search <term>    find packages
+
+  System configuration:
+    setup-alpine         run the Alpine setup tool
+    setup-hostname       change the hostname
+    setup-timezone       change the timezone
+    passwd               change your password
+
+  Services (OpenRC):
+    rc-update add <svc>  enable a service at boot
+    rc-service <svc> start|stop|restart
+
+  Networking:
+    rc-service networking restart
+    edit /etc/network/interfaces
+
+  Files & docs:
+    /etc/apk/repositories   package repositories
+    https://wiki.alpinelinux.org
+EOF

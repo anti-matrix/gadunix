@@ -1,0 +1,12 @@
+# abuild build artifacts
+packages/*/src/
+packages/*/pkg/
+*.apk
+
+# ISO images
+*.iso
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+*~

@@ -1,0 +1,79 @@
+# Maintainer: Anti-Matrix <116738035+anti-matrix@users.noreply.github.com>
+# Gadunix base meta-package
+# This is the package that makes the system "Gadunix" rather than plain Alpine.
+# It pulls in your chosen default packages and owns distro-specific config files.
+
+pkgname=gadunix-base
+pkgver=0.1.0
+pkgrel=0
+pkgdesc="Gadunix base system meta-package"
+url="https://github.com/anti-matrix/gadunix"
+arch="noarch"
+license="MIT"
+
+# ── Runtime dependencies ──────────────────────────────────────────────────────
+# Everything listed here gets pulled in automatically when gadunix-base is
+# installed. This is your distro's default software selection.
+depends="
+	alpine-base
+	bash
+	curl
+	wget
+	git
+	nano
+	htop
+	less
+	man-db
+	python3
+	openssh
+	e2fsprogs
+	util-linux
+	iproute2
+	dhcpcd
+"
+
+# ── Source files ──────────────────────────────────────────────────────────────
+# Files you want to install into the system — configs, scripts, branding, etc.
+# List them here and handle them in package() below.
+source="
+	gadunix-release
+	gadunix-welcome
+	gadunix-help
+"
+builddir="$srcdir"
+
+# No compilation needed for a meta-package
+build() { :; }
+check() { :; }
+
+package() {
+	# /etc/gadunix-release — distro identity
+	install -Dm644 "$srcdir/gadunix-release" \
+		"$pkgdir/etc/gadunix-release"
+
+	# /etc/os-release — standard Linux identity file
+	cat > "$pkgdir/etc/os-release" << EOF
+NAME="Gadunix"
+VERSION="$pkgver"
+ID=gadunix
+ID_LIKE=alpine
+PRETTY_NAME="Gadunix $pkgver"
+HOME_URL="https://github.com/anti-matrix/gadunix"
+SUPPORT_URL="https://github.com/anti-matrix/gadunix/issues"
+EOF
+
+	# /etc/motd — shown on login
+	install -Dm644 "$srcdir/gadunix-welcome" \
+		"$pkgdir/etc/motd"
+
+	# /usr/bin/gadunix-help — distro-specific docs
+	install -Dm755 "$srcdir/gadunix-help" \
+		"$pkgdir/usr/bin/gadunix-help"
+}
+
+# sha256 checksums — regenerate with: abuild checksum
+sha256sums="
+c43c2fff03b686b1b9a9413720c03fc5572ca81f13a7fe759515eb270dd76066  gadunix-release
+ef063b4e5f19be2b065fffe2faa31fa8eece116af25b1f45b73a1df1e2445e6b  gadunix-welcome
+a31eee9faa88e33baa6ee53fbf852167b953ea32e2c751b1568352534ae6c737  gadunix-help
+"

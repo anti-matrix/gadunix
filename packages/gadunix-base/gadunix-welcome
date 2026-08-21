@@ -1,0 +1,10 @@
+
+  ┌─────────────────────────────────┐
+  │      Welcome to Gadunix         │
+  │   A minimal general-purpose     │
+  │      Linux built on Alpine      │
+  └─────────────────────────────────┘
+
+  apk add <package>   install software
+  setup-alpine        configure the system
+  gadunix-help        distro-specific docs
