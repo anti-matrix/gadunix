@@ -23,7 +23,7 @@ depends="
 	nano
 	htop
 	less
-	man-db
+	mandoc
 	python3
 	openssh
 	e2fsprogs

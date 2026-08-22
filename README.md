@@ -43,7 +43,7 @@ The easiest path: run Alpine in QEMU locally, or use Docker.
 ```bash
 docker run -it --rm -v $(pwd):/gadunix alpine:edge sh
 # Inside the container:
-apk add alpine-sdk build-base git xorriso mtools grub-efi grub-bios abuild
+apk add alpine-sdk build-base git xorriso mtools grub-efi grub-bios abuild squashfs-tools mkinitfs
 ```
 
 ### Via QEMU (closer to real build environment)
@@ -76,9 +76,10 @@ The built `.apk` lands in `~/packages/`. This is your local package repo.
 git clone https://github.com/alpinelinux/aports.git
 cd aports
 
-# Copy your mkimage profile and overlay generator into place
+# Copy your mkimage profile, overlay generator, and overlay files into place
 cp /gadunix/profile/mkimg.gadunix.sh scripts/
 cp /gadunix/profile/genapkovl.sh   scripts/
+cp -r /gadunix/overlayfs .
 
 # Point mkimage at your local package repo so it can find gadunix-base
 sh scripts/mkimage.sh \

@@ -62,7 +62,7 @@ profile_gadunix() {
 		nano
 		htop
 		less
-		man-db
+		mandoc
 		man-pages
 
 		git
