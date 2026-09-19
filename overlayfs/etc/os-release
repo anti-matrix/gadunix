@@ -1,0 +1,7 @@
+NAME="Gadunix"
+VERSION="0.1.0"
+ID=gadunix
+ID_LIKE=alpine
+PRETTY_NAME="Gadunix 0.1.0"
+HOME_URL="https://github.com/anti-matrix/gadunix"
+SUPPORT_URL="https://github.com/anti-matrix/gadunix/issues"

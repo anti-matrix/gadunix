@@ -1,0 +1,66 @@
+writing RSA key
+>>> 
+>>> You'll need to install /home/builder/.config/abuild/builder-6a8a7475.rsa.pub into 
+>>> /etc/apk/keys to be able to install packages and repositories signed with
+>>> /home/builder/.config/abuild/builder-6a8a7475.rsa
+>>> 
+>>> Please remember to make a safe backup of your private key:
+>>> /home/builder/.config/abuild/builder-6a8a7475.rsa
+>>> 
+>>> gadunix-base: Building packages/gadunix-base 0.1.0-r0 (using abuild 3.18.0_rc5-r0) started Sun, 23 Aug 2026 04:18:26 +0000
+>>> gadunix-base: Validating /home/builder/gadunix/packages/gadunix-base/APKBUILD...
+>>> WARNING: gadunix-base: Found old (sha256) checksum, use 'abuild checksum' to regenerate
+>>> gadunix-base: Analyzing dependencies...
+>>> gadunix-base: Installing for build: build-base alpine-base bash curl wget git nano htop less mandoc python3 openssh e2fsprogs util-linux iproute2 dhcpcd
+WARNING: opening /home/builder/repo/packages/x86_64/APKINDEX.tar.gz: No such file or directory
+>>> gadunix-base: Cleaning up srcdir
+>>> gadunix-base: Cleaning up pkgdir
+>>> gadunix-base: Cleaning up tmpdir
+>>> gadunix-base: Entering fakeroot...
+>>> gadunix-base*: Running postcheck for gadunix-base
+>>> gadunix-base*: Preparing package gadunix-base...
+>>> gadunix-base*: Tracing dependencies...
+	alpine-base
+	bash
+	curl
+	wget
+	git
+	nano
+	htop
+	less
+	mandoc
+	python3
+	openssh
+	e2fsprogs
+	util-linux
+	iproute2
+	dhcpcd
+>>> gadunix-base*: Package size: 1.5 KB
+>>> gadunix-base*: Compressing data...
+>>> gadunix-base*: Create checksum...
+>>> gadunix-base*: Create gadunix-base-0.1.0-r0.apk
+>>> gadunix-base: Build complete at Sun, 23 Aug 2026 04:18:38 +0000 elapsed time 0h 0m 12s
+>>> gadunix-base: Cleaning up srcdir
+>>> gadunix-base: Cleaning up pkgdir
+>>> gadunix-base: Cleaning up tmpdir
+>>> gadunix-base: Uninstalling dependencies...
+>>> gadunix-base: Updating the packages/x86_64 repository index...
+>>> gadunix-base: Signing the index...
+Cloning into '/home/builder/aports'...
+Updating files:  13% (3258/23662)Updating files:  14% (3313/23662)Updating files:  15% (3550/23662)Updating files:  16% (3786/23662)Updating files:  17% (4023/23662)Updating files:  18% (4260/23662)Updating files:  19% (4496/23662)Updating files:  20% (4733/23662)Updating files:  21% (4970/23662)Updating files:  22% (5206/23662)Updating files:  23% (5443/23662)Updating files:  24% (5679/23662)Updating files:  25% (5916/23662)Updating files:  26% (6153/23662)Updating files:  26% (6337/23662)Updating files:  27% (6389/23662)Updating files:  28% (6626/23662)Updating files:  29% (6862/23662)Updating files:  30% (7099/23662)Updating files:  31% (7336/23662)Updating files:  32% (7572/23662)Updating files:  33% (7809/23662)Updating files:  34% (8046/23662)Updating files:  35% (8282/23662)Updating files:  36% (8519/23662)Updating files:  37% (8755/23662)Updating files:  38% (8992/23662)Updating files:  39% (9229/23662)Updating files:  39% (9383/23662)Updating files:  40% (9465/23662)Updating files:  41% (9702/23662)Updating files:  42% (9939/23662)Updating files:  43% (10175/23662)Updating files:  44% (10412/23662)Updating files:  45% (10648/23662)Updating files:  46% (10885/23662)Updating files:  47% (11122/23662)Updating files:  48% (11358/23662)Updating files:  49% (11595/23662)Updating files:  50% (11831/23662)Updating files:  51% (12068/23662)Updating files:  52% (12305/23662)Updating files:  52% (12537/23662)Updating files:  53% (12541/23662)Updating files:  54% (12778/23662)Updating files:  55% (13015/23662)Updating files:  56% (13251/23662)Updating files:  57% (13488/23662)Updating files:  58% (13724/23662)Updating files:  59% (13961/23662)Updating files:  60% (14198/23662)Updating files:  61% (14434/23662)Updating files:  62% (14671/23662)Updating files:  63% (14908/23662)Updating files:  64% (15144/23662)Updating files:  65% (15381/23662)Updating files:  66% (15617/23662)Updating files:  66% (15664/23662)Updating files:  67% (15854/23662)Updating files:  68% (16091/23662)Updating files:  69% (16327/23662)Updating files:  70% (16564/23662)Updating files:  71% (16801/23662)Updating files:  72% (17037/23662)Updating files:  73% (17274/23662)Updating files:  74% (17510/23662)Updating files:  75% (17747/23662)Updating files:  76% (17984/23662)Updating files:  77% (18220/23662)Updating files:  77% (18414/23662)Updating files:  78% (18457/23662)Updating files:  79% (18693/23662)Updating files:  80% (18930/23662)Updating files:  81% (19167/23662)Updating files:  82% (19403/23662)Updating files:  83% (19640/23662)Updating files:  84% (19877/23662)Updating files:  85% (20113/23662)Updating files:  86% (20350/23662)Updating files:  87% (20586/23662)Updating files:  88% (20823/23662)Updating files:  89% (21060/23662)Updating files:  90% (21296/23662)Updating files:  91% (21533/23662)Updating files:  91% (21578/23662)Updating files:  92% (21770/23662)Updating files:  93% (22006/23662)Updating files:  94% (22243/23662)Updating files:  95% (22479/23662)Updating files:  96% (22716/23662)Updating files:  97% (22953/23662)Updating files:  98% (23189/23662)Updating files:  99% (23426/23662)Updating files: 100% (23662/23662)Updating files: 100% (23662/23662), done.
+>>> mkimage-x86_64: Building gadunix
+>>> mkimage-x86_64: --> kernel x86_64 lts 561998a1365c985a101ca251ac7fc9479dcd14d2 linux-lts linux-firmware-none wireless-regdb
+depmod: ERROR: fstatat(3, vmlinuz): No such file or directory
+>>> mkimage-x86_64: --> apks x86_64 1d1162ad3ec0c1e0b84d8cf5a8120b3490a5ec9d
+>>> Signed /tmp/mkimage.hDpiIH/apks_x86_64_1d1162ad3ec0c1e0b84d8cf5a8120b3490a5ec9d.work/apks/x86_64/APKINDEX.tar.gz
+scripts/mkimage.sh: line 84: can't open genapkovl.sh: no such file
+>>> mkimage-x86_64: --> apkovl gadunix
+>>> mkimage-x86_64: Generating gadunix.apkovl.tar.gz
+>>> mkimage-x86_64: --> syslinux 797299841e31c2bbde3b5b3800755269825908a2
+>>> mkimage-x86_64: --> syslinux_cfg boot/syslinux/syslinux.cfg 9c15f44bc6783905eb3c287da7a6c00767c4db8c
+>>> mkimage-x86_64: --> grub_cfg boot/grub/grub.cfg eac1ab70cfc87202b715e9c0e34c389282feaedb
+>>> mkimage-x86_64: --> grub_efi x86_64-efi bootx64.efi cd0dfb787b0f57553ff3868a73eac78f992a3d9b
+>>> mkimage-x86_64: Creating gadunix-260822-x86_64.iso
+xorriso 1.5.8 : RockRidge filesystem manipulator, libburnia project.
+
+xorriso : NOTE : Environment variable SOURCE_DATE_EPOCH encountered with value 1787442112

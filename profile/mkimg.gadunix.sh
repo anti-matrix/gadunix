@@ -12,8 +12,10 @@ profile_gadunix() {
 	title="Gadunix"
 	desc="A minimal general-purpose Linux"
 	image_ext="iso"
+	output_format="iso"
 	arch="x86_64"
 	profile_abbrev="gadunix"
+	image_name="gadunix"
 
 	# ── Kernel ─────────────────────────────────────────────────────────
 	kernel_flavors="lts"          # linux-lts: stable, widely supported
@@ -75,4 +77,19 @@ profile_gadunix() {
 	build() {
 		build_iso
 	}
+}
+
+# Override the base kernel section so the ISO pulls linux-firmware-none
+# (empty) instead of the full linux-firmware meta-package, which is the
+# single largest consumer of disk space during the build.
+section_kernels() {
+	local _f _a _pkgs
+	for _f in $kernel_flavors; do
+		_pkgs="linux-$_f linux-firmware-none wireless-regdb $modloop_addons"
+		for _a in $kernel_addons; do
+			_pkgs="$_pkgs $_a-$_f"
+		done
+		local id=$( (echo "$initfs_features::$_hostkeys" ; apk fetch --root "$APKROOT" --simulate alpine-base $_pkgs | sort) | checksum)
+		build_section kernel $ARCH $_f $id $_pkgs
+	done
 }

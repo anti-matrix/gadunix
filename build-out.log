@@ -1,0 +1,358 @@
+( 1/76) Installing busybox-mdev-openrc (1.38.0-r4)
+( 2/76) Installing busybox-openrc (1.38.0-r4)
+( 3/76) Installing busybox-suid (1.38.0-r4)
+( 4/76) Installing alpine-base (3.25.0_alpha20260805-r0)
+( 5/76) Installing readline (8.3.3-r1)
+( 6/76) Installing bash (5.3.9-r1)
+  Executing bash-5.3.9-r1.post-install
+( 7/76) Installing curl (8.21.0-r0)
+( 8/76) Installing wget (1.25.0-r3)
+( 9/76) Installing nano (9.2-r0)
+(10/76) Installing lsof (4.99.7-r0)
+(11/76) Installing htop (3.5.3-r0)
+(12/76) Installing less (704-r0)
+(13/76) Installing mandoc (1.14.6-r15)
+(14/76) Installing libbz2 (1.0.8-r6)
+(15/76) Installing libffi (3.5.2-r1)
+(16/76) Installing mpdecimal (4.0.1-r0)
+(17/76) Installing libpanelw (6.6_p20260815-r0)
+(18/76) Installing sqlite-libs (3.53.4-r0)
+(19/76) Installing python3 (3.14.7-r0)
+(20/76) Installing python3-pycache-pyc0 (3.14.7-r0)
+(21/76) Installing pyc (3.14.7-r0)
+(22/76) Installing python3-pyc (3.14.7-r0)
+(23/76) Installing openssh-keygen (10.5_p1-r0)
+(24/76) Installing openssh-client-common (10.5_p1-r0)
+(25/76) Installing openssh-client-default (10.5_p1-r0)
+(26/76) Installing openssh-sftp-server (10.5_p1-r0)
+(27/76) Installing openssh-server-common (10.5_p1-r0)
+(28/76) Installing openssh-server-common-openrc (10.5_p1-r0)
+(29/76) Installing openssh-server (10.5_p1-r0)
+(30/76) Installing openssh (10.5_p1-r0)
+(31/76) Installing libcom_err (1.47.4-r0)
+(32/76) Installing e2fsprogs-libs (1.47.4-r0)
+(33/76) Installing e2fsprogs (1.47.4-r0)
+(34/76) Installing util-linux (2.42.2-r1)
+(35/76) Installing dmesg (2.42.2-r1)
+(36/76) Installing setarch (2.42.2-r1)
+(37/76) Installing libfdisk (2.42.2-r1)
+(38/76) Installing libmount (2.42.2-r1)
+(39/76) Installing libsmartcols (2.42.2-r1)
+(40/76) Installing skalibs-libs (2.15.1.0-r0)
+(41/76) Installing utmps-libs (0.1.3.4-r0)
+(42/76) Installing util-linux-misc (2.42.2-r1)
+(43/76) Installing linux-pam (1.7.1-r2)
+(44/76) Installing runuser (2.42.2-r1)
+(45/76) Installing mount (2.42.2-r1)
+(46/76) Installing losetup (2.42.2-r1)
+(47/76) Installing hexdump (2.42.2-r1)
+(48/76) Installing uuidgen (2.42.2-r1)
+(49/76) Installing sfdisk (2.42.2-r1)
+(50/76) Installing mcookie (2.42.2-r1)
+(51/76) Installing agetty (2.42.2-r1)
+(52/76) Installing agetty-openrc (0.63.2-r0)
+(53/76) Installing wipefs (2.42.2-r1)
+(54/76) Installing cfdisk (2.42.2-r1)
+(55/76) Installing umount (2.42.2-r1)
+(56/76) Installing util-linux-openrc (2.42.2-r1)
+(57/76) Installing flock (2.42.2-r1)
+(58/76) Installing lsblk (2.42.2-r1)
+(59/76) Installing libcap-ng (0.8.5-r2)
+(60/76) Installing setpriv (2.42.2-r1)
+(61/76) Installing lscpu (2.42.2-r1)
+(62/76) Installing logger (2.42.2-r1)
+(63/76) Installing partx (2.42.2-r1)
+(64/76) Installing fstrim (2.42.2-r1)
+(65/76) Installing findmnt (2.42.2-r1)
+(66/76) Installing libelf (0.195-r0)
+(67/76) Installing libmnl (1.0.5-r2)
+(68/76) Installing iproute2-minimal (7.1.0-r0)
+(69/76) Installing ifupdown-ng-iproute2 (0.13.0-r0)
+(70/76) Installing libxtables (1.8.13-r0)
+(71/76) Installing iproute2-tc (7.1.0-r0)
+(72/76) Installing iproute2-ss (7.1.0-r0)
+(73/76) Installing iproute2 (7.1.0-r0)
+  Executing iproute2-7.1.0-r0.post-install
+(74/76) Installing dhcpcd (10.3.2-r0)
+  Executing dhcpcd-10.3.2-r0.pre-install
+(75/76) Installing dhcpcd-openrc (10.3.2-r0)
+(76/76) Installing .makedepends-gadunix-base (20260823.041828)
+Executing busybox-1.38.0-r4.trigger
+OK: 377.0 MiB in 170 packages
+/home/builder/gadunix/packages/gadunix-base/gadunix-release: OK
+/home/builder/gadunix/packages/gadunix-base/gadunix-welcome: OK
+/home/builder/gadunix/packages/gadunix-base/gadunix-help: OK
+/home/builder/gadunix/packages/gadunix-base/gadunix-release: OK
+/home/builder/gadunix/packages/gadunix-base/gadunix-welcome: OK
+/home/builder/gadunix/packages/gadunix-base/gadunix-help: OK
+( 1/76) Purging .makedepends-gadunix-base (20260823.041828)
+( 2/76) Purging alpine-base (3.25.0_alpha20260805-r0)
+( 3/76) Purging busybox-mdev-openrc (1.38.0-r4)
+( 4/76) Purging busybox-openrc (1.38.0-r4)
+( 5/76) Purging busybox-suid (1.38.0-r4)
+( 6/76) Purging bash (5.3.9-r1)
+  Executing bash-5.3.9-r1.pre-deinstall
+( 7/76) Purging curl (8.21.0-r0)
+( 8/76) Purging wget (1.25.0-r3)
+( 9/76) Purging nano (9.2-r0)
+(10/76) Purging htop (3.5.3-r0)
+(11/76) Purging lsof (4.99.7-r0)
+(12/76) Purging less (704-r0)
+(13/76) Purging mandoc (1.14.6-r15)
+(14/76) Purging python3-pyc (3.14.7-r0)
+(15/76) Purging python3-pycache-pyc0 (3.14.7-r0)
+(16/76) Purging pyc (3.14.7-r0)
+(17/76) Purging python3 (3.14.7-r0)
+(18/76) Purging openssh (10.5_p1-r0)
+(19/76) Purging openssh-sftp-server (10.5_p1-r0)
+(20/76) Purging openssh-server (10.5_p1-r0)
+(21/76) Purging openssh-server-common-openrc (10.5_p1-r0)
+(22/76) Purging openssh-server-common (10.5_p1-r0)
+(23/76) Purging e2fsprogs (1.47.4-r0)
+(24/76) Purging dmesg (2.42.2-r1)
+(25/76) Purging runuser (2.42.2-r1)
+(26/76) Purging uuidgen (2.42.2-r1)
+(27/76) Purging mcookie (2.42.2-r1)
+(28/76) Purging hexdump (2.42.2-r1)
+(29/76) Purging sfdisk (2.42.2-r1)
+(30/76) Purging mount (2.42.2-r1)
+(31/76) Purging cfdisk (2.42.2-r1)
+(32/76) Purging losetup (2.42.2-r1)
+(33/76) Purging util-linux-openrc (2.42.2-r1)
+(34/76) Purging flock (2.42.2-r1)
+(35/76) Purging setpriv (2.42.2-r1)
+(36/76) Purging lscpu (2.42.2-r1)
+(37/76) Purging logger (2.42.2-r1)
+(38/76) Purging partx (2.42.2-r1)
+(39/76) Purging fstrim (2.42.2-r1)
+(40/76) Purging lsblk (2.42.2-r1)
+(41/76) Purging umount (2.42.2-r1)
+(42/76) Purging agetty-openrc (0.63.2-r0)
+(43/76) Purging agetty (2.42.2-r1)
+(44/76) Purging findmnt (2.42.2-r1)
+(45/76) Purging util-linux-misc (2.42.2-r1)
+(46/76) Purging setarch (2.42.2-r1)
+(47/76) Purging wipefs (2.42.2-r1)
+(48/76) Purging util-linux (2.42.2-r1)
+(49/76) Purging iproute2 (7.1.0-r0)
+(50/76) Purging iproute2-tc (7.1.0-r0)
+(51/76) Purging iproute2-ss (7.1.0-r0)
+(52/76) Purging dhcpcd-openrc (10.3.2-r0)
+(53/76) Purging dhcpcd (10.3.2-r0)
+(54/76) Purging e2fsprogs-libs (1.47.4-r0)
+(55/76) Purging ifupdown-ng-iproute2 (0.13.0-r0)
+(56/76) Purging iproute2-minimal (7.1.0-r0)
+(57/76) Purging libbz2 (1.0.8-r6)
+(58/76) Purging libcap-ng (0.8.5-r2)
+(59/76) Purging libcom_err (1.47.4-r0)
+(60/76) Purging libelf (0.195-r0)
+(61/76) Purging libfdisk (2.42.2-r1)
+(62/76) Purging libffi (3.5.2-r1)
+(63/76) Purging libmnl (1.0.5-r2)
+(64/76) Purging libmount (2.42.2-r1)
+(65/76) Purging libpanelw (6.6_p20260815-r0)
+(66/76) Purging libsmartcols (2.42.2-r1)
+(67/76) Purging libxtables (1.8.13-r0)
+(68/76) Purging linux-pam (1.7.1-r2)
+(69/76) Purging mpdecimal (4.0.1-r0)
+(70/76) Purging openssh-client-default (10.5_p1-r0)
+(71/76) Purging openssh-keygen (10.5_p1-r0)
+(72/76) Purging openssh-client-common (10.5_p1-r0)
+(73/76) Purging readline (8.3.3-r1)
+(74/76) Purging sqlite-libs (3.53.4-r0)
+(75/76) Purging utmps-libs (0.1.3.4-r0)
+(76/76) Purging skalibs-libs (2.15.1.0-r0)
+Executing busybox-1.38.0-r4.trigger
+OK: 323.0 MiB in 94 packages
+(1/1) Installing busybox-suid (1.38.0-r4)
+Executing busybox-1.38.0-r4.trigger
+OK: 323.0 MiB in 95 packages
+OK: 0 B in 0 packages
+packages  [/home/builder/repo/packages]
+v20260805-1174-gb4750ce4a7b [https://dl-cdn.alpinelinux.org/alpine/edge/main]
+v20260805-1184-g07b6206aa19 [https://dl-cdn.alpinelinux.org/alpine/edge/community]
+OK: 28817 distinct packages available
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /tmp/update-kernel.naeecj/boot/modloop-lts, block size 131072.
+[/                                                             ]    0/2332   0%[==-                                                         ]   800/21848   3%[==|                                                         ]  1000/21848   4%[======/                                                     ]  2300/21848  10%[========-                                                   ]  3300/21848  15%[========================|                                   ]  9100/21848  41%[=========================\                                  ]  9600/21848  43%[=======================================\                    ] 14500/21848  66%[========================================\                   ] 15000/21848  68%[=============================================\              ] 17000/21848  77%[===============================================\            ] 17500/21848  80%[===========================================================-] 21848/21848 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 296276.80 Kbytes (289.33 Mbytes)
+	15.07% of uncompressed filesystem size (1966490.19 Kbytes)
+Inode table size 67966 bytes (66.37 Kbytes)
+	20.63% of uncompressed inode table size (329451 bytes)
+Directory table size 73982 bytes (72.25 Kbytes)
+	29.59% of uncompressed directory table size (250032 bytes)
+Number of duplicate files found 1478
+Number of inodes 8465
+Number of files 7359
+Number of fragments 1815
+Number of symbolic links 6
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 1100
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Signing: /tmp/update-kernel.naeecj/boot/modloop-lts
+Downloading agetty-2.42.2-r1
+Downloading agetty-openrc-0.63.2-r0
+Downloading alpine-base-3.25.0_alpha20260805-r0
+Downloading alpine-baselayout-3.7.2-r1
+Downloading alpine-baselayout-data-3.7.2-r1
+Downloading alpine-conf-3.22.0-r0
+Downloading alpine-keys-2.6-r0
+Downloading alpine-release-3.25.0_alpha20260805-r0
+Downloading apk-tools-3.0.7-r0
+Downloading bash-5.3.9-r1
+Downloading blkid-2.42.2-r1
+Downloading bridge-1.5-r5
+Downloading brotli-libs-1.2.0-r1
+Downloading busybox-1.38.0-r4
+Downloading busybox-binsh-1.38.0-r4
+Downloading busybox-mdev-openrc-1.38.0-r4
+Downloading busybox-openrc-1.38.0-r4
+Downloading busybox-suid-1.38.0-r4
+Downloading c-ares-1.34.8-r0
+Downloading ca-certificates-20260611-r0
+Downloading ca-certificates-bundle-20260611-r0
+Downloading cfdisk-2.42.2-r1
+Downloading cryptsetup-libs-2.8.7-r0
+Downloading curl-8.21.0-r0
+Downloading device-mapper-libs-2.03.35-r5
+Downloading dhcpcd-10.3.2-r0
+Downloading dhcpcd-openrc-10.3.2-r0
+Downloading dmesg-2.42.2-r1
+Downloading dosfstools-4.2-r2
+Downloading dropbear-2026.94-r0
+Downloading dropbear-openrc-2026.94-r0
+Downloading e2fsprogs-1.47.4-r0
+Downloading e2fsprogs-libs-1.47.4-r0
+Downloading efibootmgr-18-r2
+Downloading efivar-libs-39-r1
+Downloading eudev-libs-3.2.14-r7
+Downloading findmnt-2.42.2-r1
+Downloading flock-2.42.2-r1
+Downloading fstrim-2.42.2-r1
+Downloading gadunix-base-0.1.0-r0
+Downloading git-2.55.0-r1
+Downloading git-init-template-2.55.0-r1
+Downloading grub-2.14-r1
+Downloading grub-bios-2.14-r1
+Downloading grub-efi-2.14-r1
+Downloading hexdump-2.42.2-r1
+Downloading htop-3.5.3-r0
+Downloading ifupdown-ng-0.13.0-r0
+Downloading ifupdown-ng-iproute2-0.13.0-r0
+Downloading iproute2-7.1.0-r0
+Downloading iproute2-minimal-7.1.0-r0
+Downloading iproute2-ss-7.1.0-r0
+Downloading iproute2-tc-7.1.0-r0
+Downloading json-c-0.19-r1
+Downloading kmod-34.2-r1
+Downloading kmod-libs-34.2-r1
+Downloading lddtree-1.27-r0
+Downloading less-704-r0
+Downloading libapk-3.0.7-r0
+Downloading libblkid-2.42.2-r1
+Downloading libbz2-1.0.8-r6
+Downloading libcap-ng-0.8.5-r2
+Downloading libcap2-2.78-r0
+Downloading libcom_err-1.47.4-r0
+Downloading libcrypto3-3.5.7-r0
+Downloading libcurl-8.21.0-r0
+Downloading libeconf-0.8.4-r0
+Downloading libedit-20260508.3.1-r1
+Downloading libelf-0.195-r0
+Downloading libexpat-2.8.3-r0
+Downloading libfdisk-2.42.2-r1
+Downloading libffi-3.5.2-r1
+Downloading libgcc-15.2.0-r9
+Downloading libidn2-2.3.8-r0
+Downloading libintl-1.0-r0
+Downloading libmnl-1.0.5-r2
+Downloading libmount-2.42.2-r1
+Downloading libncursesw-6.6_p20260815-r0
+Downloading libpanelw-6.6_p20260815-r0
+Downloading libpsl-0.21.5-r3
+Downloading libsmartcols-2.42.2-r1
+Downloading libssl3-3.5.7-r0
+Downloading libstdc++-15.2.0-r9
+Downloading libunistring-1.4.2-r0
+Downloading libuuid-2.42.2-r1
+Downloading libxtables-1.8.13-r0
+Downloading linux-firmware-none-20260622-r0
+Downloading linux-lts-6.18.44-r0
+Downloading linux-pam-1.7.1-r2
+Downloading logger-2.42.2-r1
+Downloading losetup-2.42.2-r1
+Downloading lsblk-2.42.2-r1
+Downloading lscpu-2.42.2-r1
+Downloading lsof-4.99.7-r0
+Downloading man-pages-6.18-r0
+Downloading mandoc-1.14.6-r15
+Downloading mcookie-2.42.2-r1
+Downloading mdev-conf-4.10-r0
+Downloading mkinitfs-3.14.0-r0
+Downloading mount-2.42.2-r1
+Downloading mpdecimal-4.0.1-r0
+Downloading musl-1.2.6-r2
+Downloading musl-utils-1.2.6-r2
+Downloading nano-9.2-r0
+Downloading ncurses-terminfo-base-6.6_p20260815-r0
+Downloading nghttp2-libs-1.70.0-r0
+Downloading openrc-0.63.2-r0
+Downloading openrc-user-0.63.2-r0
+Downloading openssh-10.5_p1-r0
+Downloading openssh-client-common-10.5_p1-r0
+Downloading openssh-client-default-10.5_p1-r0
+Downloading openssh-keygen-10.5_p1-r0
+Downloading openssh-server-10.5_p1-r0
+Downloading openssh-server-common-10.5_p1-r0
+Downloading openssh-server-common-openrc-10.5_p1-r0
+Downloading openssh-sftp-server-10.5_p1-r0
+Downloading openssl-3.5.7-r0
+Downloading parted-3.7-r0
+Downloading partx-2.42.2-r1
+Downloading pcre2-10.47-r1
+Downloading popt-1.19-r4
+Downloading py3-pip-26.1.2-r0
+Downloading py3-pip-pyc-26.1.2-r0
+Downloading pyc-3.14.7-r0
+Downloading python3-3.14.7-r0
+Downloading python3-pyc-3.14.7-r0
+Downloading python3-pycache-pyc0-3.14.7-r0
+Downloading readline-8.3.3-r1
+Downloading runuser-2.42.2-r1
+Downloading scanelf-1.3.9-r1
+Downloading setarch-2.42.2-r1
+Downloading setpriv-2.42.2-r1
+Downloading sfdisk-2.42.2-r1
+Downloading skalibs-libs-2.15.1.0-r0
+Downloading sqlite-libs-3.53.4-r0
+Downloading ssl_client-1.38.0-r4
+Downloading umount-2.42.2-r1
+Downloading util-linux-2.42.2-r1
+Downloading util-linux-misc-2.42.2-r1
+Downloading util-linux-openrc-2.42.2-r1
+Downloading utmps-libs-0.1.3.4-r0
+Downloading uuidgen-2.42.2-r1
+Downloading wget-1.25.0-r3
+Downloading wipefs-2.42.2-r1
+Downloading xz-libs-5.8.3-r0
+Downloading zlib-1.3.2-r0
+Downloading zstd-libs-1.5.7-r2
+Index has 147 packages (of which 147 are new)
+Images generated in /home/builder/iso
+=== Done. Output: ===
+total 535552
+drwxr-xr-x    1 root     root          4096 Aug 23 04:31 .
+drwxrwxrwx    1 root     root          4096 Aug 23 04:17 ..
+-rw-r--r--    1 root     root     548405248 Aug 23 04:31 gadunix-260822-x86_64.iso

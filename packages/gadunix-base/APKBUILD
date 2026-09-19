@@ -74,6 +74,6 @@ EOF
 # sha256 checksums — regenerate with: abuild checksum
 sha256sums="
 c43c2fff03b686b1b9a9413720c03fc5572ca81f13a7fe759515eb270dd76066  gadunix-release
-ef063b4e5f19be2b065fffe2faa31fa8eece116af25b1f45b73a1df1e2445e6b  gadunix-welcome
+c410800f171b5d88a4ec55d8355ae211067a90bc481f4b1465972aca02b00b34  gadunix-welcome
 a31eee9faa88e33baa6ee53fbf852167b953ea32e2c751b1568352534ae6c737  gadunix-help
 "
